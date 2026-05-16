@@ -4,6 +4,10 @@
 
 # Azure Network Protocols and NSG Troubleshooting Lab
 
+## Recruiter TL;DR
+
+This repo demonstrates cloud/network troubleshooting in Azure using Windows and Linux VMs, Wireshark, command-line tests, and Network Security Groups. It proves I can test connectivity, identify protocol behavior, understand how cloud firewall rules affect access, and document troubleshooting evidence clearly for support or escalation.
+
 ## Project Summary
 
 This lab demonstrates network troubleshooting inside Microsoft Azure using Windows and Linux virtual machines, Wireshark packet capture, command-line tools, and Azure Network Security Groups. I tested common protocols, observed traffic behavior, and changed cloud firewall rules to see how security policy affects connectivity.
