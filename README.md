@@ -157,3 +157,11 @@ This lab maps to common support and cloud tickets such as:
 ## Status
 
 Completed portfolio lab. Future improvements could include route tables, private/public IP comparisons, Network Watcher flow logs, VPN scenarios, and a deeper incident-style troubleshooting write-up.
+
+## Screenshot Walkthrough
+
+### 1. Resource Group Creation Review
+
+![Azure resource group creation review](screenshots/setup/00-resource-group-create-review.png)
+
+This screenshot shows the Azure resource group configuration before deployment. The resource group is the container used to organize the lab resources for this project, including the virtual machines, virtual network, network security group, and protocol testing environment. For a help desk or junior cloud support role, this demonstrates basic Azure portal navigation, resource organization, and awareness of how cloud infrastructure is grouped before troubleshooting begins.
