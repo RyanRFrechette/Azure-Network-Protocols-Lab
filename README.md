@@ -37,6 +37,13 @@ This screenshot shows the Windows virtual machine created for the lab. The VM ac
 
 This screenshot shows the Linux virtual machine created as the target system for protocol and connectivity testing. It is placed in the same Azure virtual network as the Windows VM, but it does not expose inbound internet access. For a help desk or junior cloud support role, this demonstrates safer cloud lab design, internal network testing, and the ability to separate a troubleshooting client from a target server.
 
+
+### 5. ICMP Test: Windows VM to Linux VM
+
+![Windows VM pinging Linux VM successfully](screenshots/icmp/04-windows-to-linux-ping-success.png)
+
+This screenshot shows a successful ping from the Windows VM to the Linux VM using the Linux VM's private IP address. The replies confirm that both virtual machines are on the same Azure virtual network and can communicate internally without exposing the Linux VM directly to the internet. For a help desk or junior cloud support role, this demonstrates basic ICMP testing, private IP troubleshooting, and validation of cloud network connectivity.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
