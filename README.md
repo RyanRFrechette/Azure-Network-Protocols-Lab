@@ -8,11 +8,27 @@ This is a beginner-to-junior Azure networking portfolio lab showing how I set up
 - [Resume Bullets](resume-bullets.md)
 - [Azure Deletion Proof](command-outputs/azure-resource-group-deletion-check.txt)
 
+## Quick Links
+- [Case Study](case-study.md)
+- [Resume Bullets](resume-bullets.md)
+- [Azure Deletion Proof](command-outputs/azure-resource-group-deletion-check.txt)
+
 ## Business Scenario
 A support technician needs to troubleshoot cloud-hosted systems that may be affected by network configuration, firewall rules, DNS behavior, or remote access issues. This lab rebuild documents that process step by step using Microsoft Azure and clear local screenshots.
 
 ## Lab Status
 Portfolio-ready. The Azure lab was built, documented with screenshots, tested across ICMP, SSH, TCP, DNS, RDP, Wireshark, and NSG firewall behavior, then deleted to stop cloud billing. Deletion proof is saved in command-outputs/azure-resource-group-deletion-check.txt.
+
+## Architecture Summary
+This lab used a Windows VM as the troubleshooting workstation and a Linux VM as the target server inside the same Azure virtual network. The Windows VM was used to test private IP connectivity, DNS resolution, SSH access, TCP port reachability, NSG firewall behavior, and packet captures with Wireshark.
+
+## What This Proves
+- I can deploy and organize basic Azure lab resources.
+- I can troubleshoot private VM-to-VM connectivity.
+- I understand how NSG firewall rules affect traffic.
+- I can test DNS, ICMP, SSH, TCP ports, and RDP access.
+- I can use Wireshark to validate packet-level behavior.
+- I can document technical work clearly for support teams and hiring managers.
 
 ## Architecture Summary
 This lab used a Windows VM as the troubleshooting workstation and a Linux VM as the target server inside the same Azure virtual network. The Windows VM was used to test private IP connectivity, DNS resolution, SSH access, TCP port reachability, NSG firewall behavior, and packet captures with Wireshark.
@@ -152,6 +168,13 @@ This screenshot shows Wireshark capturing DNS traffic from the Windows VM during
 - Explain how Wireshark confirmed blocked traffic versus restored request/reply traffic.
 - Explain why deleting the resource group matters for cost control and safe lab cleanup.
 
+## Interview Talking Points
+- Explain how the Windows VM and Linux VM communicated over private IP addresses inside the Azure virtual network.
+- Explain how the NSG deny rule caused ping to fail even though both VMs were still online.
+- Explain the difference between ping success, TCP port success, and DNS resolution.
+- Explain how Wireshark confirmed blocked traffic versus restored request/reply traffic.
+- Explain why deleting the resource group matters for cost control and safe lab cleanup.
+
 ## Skills Demonstrated
 - Azure portal navigation
 - Cloud resource organization
@@ -165,4 +188,5 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Final Notes
 This lab is complete and portfolio-ready. The screenshots and command outputs document the full troubleshooting story: Azure setup, private VM connectivity, remote access, DNS testing, NSG blocking, Wireshark packet inspection, restored connectivity, and resource cleanup.
+
 
