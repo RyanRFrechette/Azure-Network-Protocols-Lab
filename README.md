@@ -80,6 +80,12 @@ This screenshot shows a DNS lookup from the Windows VM resolving microsoft.com t
 This screenshot shows ping failing after an Azure Network Security Group rule was applied to deny ICMP traffic from the Windows VM to the Linux VM. Earlier screenshots proved the same ping worked before the rule change, so this demonstrates how a cloud firewall rule can block traffic even when both virtual machines are running. For a help desk or junior cloud support role, this shows firewall-based troubleshooting and before/after connectivity validation.
 
 
+### 11. Wireshark Setup: Ethernet Interface Selected
+
+![Wireshark showing Ethernet capture interface](screenshots/wireshark/10-wireshark-interface-selected.png)
+
+This screenshot shows Wireshark installed on the Azure Windows VM with the Ethernet capture interface available. This confirms the packet-capture tool is ready before running protocol tests. For a help desk or junior cloud support role, this demonstrates the ability to prepare a Windows troubleshooting workstation for network traffic inspection instead of relying only on command-line results.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -106,4 +112,5 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Next Step
 Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
+
 
