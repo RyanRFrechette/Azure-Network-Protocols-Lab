@@ -92,6 +92,12 @@ This screenshot shows Wireshark installed on the Azure Windows VM with the Ether
 
 This screenshot shows Wireshark capturing ICMP echo requests from the Windows VM to the Linux VM while the Azure Network Security Group deny rule is active. The capture shows requests going from the Windows private IP to the Linux private IP with no successful replies, matching the failed ping test. For a help desk or junior cloud support role, this demonstrates packet-level troubleshooting and confirms that the connectivity failure is caused by traffic being blocked, not by the command-line tool itself.
 
+### 13. Azure Virtual Network Overview
+
+![Azure virtual network overview](screenshots/setup/04-virtual-network-overview.png)
+
+This screenshot shows the Azure virtual network used by the lab. The address space and subnet provide the private network path between the Windows troubleshooting VM and the Linux target VM. For a help desk or junior cloud support role, this demonstrates awareness of where cloud connectivity begins: virtual networks, subnets, DNS settings, and private IP communication.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -118,6 +124,7 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Next Step
 Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
+
 
 
 
