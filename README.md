@@ -110,6 +110,12 @@ This screenshot shows the Azure Network Security Group rule used to block ICMP t
 
 This screenshot shows Wireshark capturing successful ICMP traffic between the Windows VM and Linux VM after the deny rule was removed. The capture shows echo requests from the Windows VM private IP to the Linux VM private IP and echo replies returning from the Linux VM. For a help desk or junior cloud support role, this demonstrates packet-level validation of restored connectivity and shows the difference between blocked traffic and allowed traffic.
 
+### 16. Wireshark Capture: DNS Traffic
+
+![Wireshark showing DNS query and response traffic](screenshots/wireshark/13-wireshark-dns-traffic.png)
+
+This screenshot shows Wireshark capturing DNS traffic from the Windows VM during a name lookup test. The capture shows DNS queries leaving the Windows VM and responses returning from Azure-provided DNS. For a help desk or junior cloud support role, this demonstrates how DNS troubleshooting can be validated at the packet level instead of relying only on command-line output.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -136,6 +142,7 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Next Step
 Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
+
 
 
 
