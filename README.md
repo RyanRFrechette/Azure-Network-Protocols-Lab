@@ -104,6 +104,12 @@ This screenshot shows the Azure virtual network used by the lab. The address spa
 
 This screenshot shows the Azure Network Security Group rule used to block ICMP traffic from the Windows VM to the Linux VM. The rule denies traffic from the Windows VM private IP to the Linux VM private IP, which explains why ping requests fail after the rule is applied. For a help desk or junior cloud support role, this demonstrates how firewall rules can create connectivity issues even when both virtual machines are online and correctly networked.
 
+### 15. Wireshark Capture: ICMP Allowed Request and Reply
+
+![Wireshark showing ICMP request and reply traffic](screenshots/wireshark/12-wireshark-icmp-allowed-request-reply.png)
+
+This screenshot shows Wireshark capturing successful ICMP traffic between the Windows VM and Linux VM after the deny rule was removed. The capture shows echo requests from the Windows VM private IP to the Linux VM private IP and echo replies returning from the Linux VM. For a help desk or junior cloud support role, this demonstrates packet-level validation of restored connectivity and shows the difference between blocked traffic and allowed traffic.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -130,6 +136,7 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Next Step
 Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
+
 
 
 
