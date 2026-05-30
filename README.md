@@ -65,6 +65,13 @@ This screenshot shows a successful TCP port test from the Windows VM to the Linu
 
 This screenshot shows a Remote Desktop session into the Azure Windows VM. RDP access is a common support workflow for remotely inspecting a Windows system, running troubleshooting commands, validating connectivity, and documenting findings. For a help desk or junior cloud support role, this demonstrates remote access familiarity and the ability to work inside a cloud-hosted Windows environment.
 
+
+### 9. DNS Test: Name Resolution from Windows VM
+
+![Windows VM DNS lookup test](screenshots/dns/08-dns-lookup-output.png)
+
+This screenshot shows a DNS lookup from the Windows VM resolving microsoft.com to public IP addresses. DNS testing helps separate name resolution problems from network connectivity problems. For a help desk or junior cloud support role, this demonstrates basic DNS troubleshooting using command-line tools inside a cloud-hosted Windows environment.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
