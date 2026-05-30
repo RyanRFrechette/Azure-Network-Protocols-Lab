@@ -72,6 +72,13 @@ This screenshot shows a Remote Desktop session into the Azure Windows VM. RDP ac
 
 This screenshot shows a DNS lookup from the Windows VM resolving microsoft.com to public IP addresses. DNS testing helps separate name resolution problems from network connectivity problems. For a help desk or junior cloud support role, this demonstrates basic DNS troubleshooting using command-line tools inside a cloud-hosted Windows environment.
 
+
+### 10. NSG Block Test: ICMP Denied
+
+![Windows VM ping blocked by Azure NSG rule](screenshots/nsg/09-icmp-blocked-by-nsg.png)
+
+This screenshot shows ping failing after an Azure Network Security Group rule was applied to deny ICMP traffic from the Windows VM to the Linux VM. Earlier screenshots proved the same ping worked before the rule change, so this demonstrates how a cloud firewall rule can block traffic even when both virtual machines are running. For a help desk or junior cloud support role, this shows firewall-based troubleshooting and before/after connectivity validation.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
