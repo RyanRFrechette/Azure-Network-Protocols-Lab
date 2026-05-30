@@ -30,6 +30,13 @@ This screenshot shows the completed Azure resource group that will contain the l
 
 This screenshot shows the Windows virtual machine created for the lab. The VM acts as the support workstation used to test connectivity, run command-line troubleshooting tools, connect over RDP, and later capture protocol traffic with Wireshark. For a help desk or junior cloud support role, this demonstrates basic Azure VM deployment, cost-aware configuration, and safe documentation of cloud resources without exposing sensitive details.
 
+
+### 4. Linux VM Overview
+
+![Azure Linux VM overview](screenshots/setup/03-linux-vm-overview.png)
+
+This screenshot shows the Linux virtual machine created as the target system for protocol and connectivity testing. It is placed in the same Azure virtual network as the Windows VM, but it does not expose inbound internet access. For a help desk or junior cloud support role, this demonstrates safer cloud lab design, internal network testing, and the ability to separate a troubleshooting client from a target server.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
