@@ -51,6 +51,13 @@ This screenshot shows a successful ping from the Windows VM to the Linux VM usin
 
 This screenshot shows a successful SSH connection from the Windows VM to the Linux VM using the Linux VM's private IP address. This confirms that the Windows support workstation can securely access the Linux target over the internal Azure virtual network without exposing SSH directly to the public internet. For a help desk or junior cloud support role, this demonstrates private network access, remote administration, SSH troubleshooting, and secure cloud lab design.
 
+
+### 7. TCP Test: SSH Port 22 Connectivity
+
+![Windows VM testing TCP port 22 to Linux VM](screenshots/tcp/06-windows-to-linux-ssh-port-test.png)
+
+This screenshot shows a successful TCP port test from the Windows VM to the Linux VM on port 22. Unlike a basic ping test, this confirms that the SSH service is reachable over the internal Azure virtual network. For a help desk or junior cloud support role, this demonstrates port-level troubleshooting, service reachability testing, and the difference between general network connectivity and application-specific connectivity.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
