@@ -44,6 +44,13 @@ This screenshot shows the Linux virtual machine created as the target system for
 
 This screenshot shows a successful ping from the Windows VM to the Linux VM using the Linux VM's private IP address. The replies confirm that both virtual machines are on the same Azure virtual network and can communicate internally without exposing the Linux VM directly to the internet. For a help desk or junior cloud support role, this demonstrates basic ICMP testing, private IP troubleshooting, and validation of cloud network connectivity.
 
+
+### 6. SSH Test: Windows VM to Linux VM
+
+![Windows VM SSH connection to Linux VM](screenshots/ssh/05-windows-to-linux-ssh-success.png)
+
+This screenshot shows a successful SSH connection from the Windows VM to the Linux VM using the Linux VM's private IP address. This confirms that the Windows support workstation can securely access the Linux target over the internal Azure virtual network without exposing SSH directly to the public internet. For a help desk or junior cloud support role, this demonstrates private network access, remote administration, SSH troubleshooting, and secure cloud lab design.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
