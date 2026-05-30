@@ -58,6 +58,13 @@ This screenshot shows a successful SSH connection from the Windows VM to the Lin
 
 This screenshot shows a successful TCP port test from the Windows VM to the Linux VM on port 22. Unlike a basic ping test, this confirms that the SSH service is reachable over the internal Azure virtual network. For a help desk or junior cloud support role, this demonstrates port-level troubleshooting, service reachability testing, and the difference between general network connectivity and application-specific connectivity.
 
+
+### 8. RDP Access: Host Computer to Windows VM
+
+![RDP session connected to Azure Windows VM](screenshots/rdp/07-rdp-session-proof.png)
+
+This screenshot shows a Remote Desktop session into the Azure Windows VM. RDP access is a common support workflow for remotely inspecting a Windows system, running troubleshooting commands, validating connectivity, and documenting findings. For a help desk or junior cloud support role, this demonstrates remote access familiarity and the ability to work inside a cloud-hosted Windows environment.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
