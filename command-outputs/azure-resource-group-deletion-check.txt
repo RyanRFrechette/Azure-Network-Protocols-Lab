@@ -1,5 +1,5 @@
 ﻿Azure resource group deletion verification
-Date: 05/30/2026 16:05:33
+Date: 05/30/2026 16:05:36
 Resource group: rg-azure-network-protocols-lab
 Exists: false
 Result: Deleted / billing resources removed
