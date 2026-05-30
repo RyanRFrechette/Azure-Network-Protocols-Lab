@@ -1,13 +1,13 @@
 ﻿# Azure Network Protocols and NSG Troubleshooting Lab
 
 ## Recruiter TLDR
-This is a beginner-to-junior Azure networking portfolio lab showing how I set up a cloud troubleshooting environment, document each step with screenshots, and explain the support value behind the work. The finished lab will include Azure VMs, network security groups, Wireshark, ICMP, DNS, SSH, and RDP troubleshooting evidence.
+This is a beginner-to-junior Azure networking portfolio lab showing how I set up a cloud troubleshooting environment, document each step with screenshots, and explain the support value behind the work. This completed lab includes Azure VMs, network security groups, Wireshark, ICMP, DNS, SSH, and RDP troubleshooting evidence.
 
 ## Business Scenario
 A support technician needs to troubleshoot cloud-hosted systems that may be affected by network configuration, firewall rules, DNS behavior, or remote access issues. This lab rebuild documents that process step by step using Microsoft Azure and clear local screenshots.
 
 ## Lab Status
-Rebuild in progress. Screenshots are being added one at a time, committed to GitHub, and explained for hiring managers.
+Portfolio-ready. The Azure lab was built, documented with screenshots, tested across ICMP, SSH, TCP, DNS, RDP, Wireshark, and NSG firewall behavior, then deleted to stop cloud billing. Deletion proof is saved in command-outputs/azure-resource-group-deletion-check.txt.
 
 ## Screenshot Walkthrough
 
@@ -140,13 +140,5 @@ This screenshot shows Wireshark capturing DNS traffic from the Windows VM during
 ## Privacy Note
 Screenshots are reviewed before publishing to avoid exposing credentials, secrets, subscription IDs, private keys, or unnecessary personal information.
 
-## Next Step
-Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
-
-
-
-
-
-
-
-
+## Final Notes
+This lab is complete and portfolio-ready. The screenshots and command outputs document the full troubleshooting story: Azure setup, private VM connectivity, remote access, DNS testing, NSG blocking, Wireshark packet inspection, restored connectivity, and resource cleanup.
