@@ -86,6 +86,12 @@ This screenshot shows ping failing after an Azure Network Security Group rule wa
 
 This screenshot shows Wireshark installed on the Azure Windows VM with the Ethernet capture interface available. This confirms the packet-capture tool is ready before running protocol tests. For a help desk or junior cloud support role, this demonstrates the ability to prepare a Windows troubleshooting workstation for network traffic inspection instead of relying only on command-line results.
 
+### 12. Wireshark Capture: ICMP Blocked by NSG
+
+![Wireshark showing ICMP requests blocked by NSG](screenshots/wireshark/11-wireshark-icmp-blocked-capture.png)
+
+This screenshot shows Wireshark capturing ICMP echo requests from the Windows VM to the Linux VM while the Azure Network Security Group deny rule is active. The capture shows requests going from the Windows private IP to the Linux private IP with no successful replies, matching the failed ping test. For a help desk or junior cloud support role, this demonstrates packet-level troubleshooting and confirms that the connectivity failure is caused by traffic being blocked, not by the command-line tool itself.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -112,5 +118,6 @@ Screenshots are reviewed before publishing to avoid exposing credentials, secret
 
 ## Next Step
 Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
+
 
 
