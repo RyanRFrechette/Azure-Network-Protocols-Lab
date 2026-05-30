@@ -23,6 +23,13 @@ This screenshot shows the Azure resource group configuration before deployment. 
 
 This screenshot shows the completed Azure resource group that will contain the lab environment. In a support role, resource groups help technicians quickly identify which virtual machines, networks, security rules, and services belong to the same system or troubleshooting scenario. This confirms the cloud workspace is ready before deploying the Windows and Linux virtual machines.
 
+
+### 3. Windows VM Overview
+
+![Azure Windows VM overview](screenshots/setup/02-windows-vm-overview.png)
+
+This screenshot shows the Windows virtual machine created for the lab. The VM acts as the support workstation used to test connectivity, run command-line troubleshooting tools, connect over RDP, and later capture protocol traffic with Wireshark. For a help desk or junior cloud support role, this demonstrates basic Azure VM deployment, cost-aware configuration, and safe documentation of cloud resources without exposing sensitive details.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
