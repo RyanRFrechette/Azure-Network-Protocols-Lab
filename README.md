@@ -17,6 +17,12 @@ Rebuild in progress. Screenshots are being added one at a time, committed to Git
 
 This screenshot shows the Azure resource group configuration before deployment. The resource group is the container used to organize the lab resources for this project, including the virtual machines, virtual network, network security group, and protocol testing environment. For a help desk or junior cloud support role, this demonstrates basic Azure portal navigation, resource organization, and awareness of how cloud infrastructure is grouped before troubleshooting begins.
 
+### 2. Resource Group Overview
+
+![Azure resource group overview](screenshots/setup/01-resource-group-overview.png)
+
+This screenshot shows the completed Azure resource group that will contain the lab environment. In a support role, resource groups help technicians quickly identify which virtual machines, networks, security rules, and services belong to the same system or troubleshooting scenario. This confirms the cloud workspace is ready before deploying the Windows and Linux virtual machines.
+
 ## Tools Planned
 - Microsoft Azure
 - Windows virtual machine
@@ -42,10 +48,4 @@ This screenshot shows the Azure resource group configuration before deployment. 
 Screenshots are reviewed before publishing to avoid exposing credentials, secrets, subscription IDs, private keys, or unnecessary personal information.
 
 ## Next Step
-Create and document the completed resource group overview, then continue building the Azure networking lab one screenshot at a time.
-
-### 2. Resource Group Overview
-
-![Azure resource group overview](screenshots/setup/01-resource-group-overview.png)
-
-This screenshot shows the completed Azure resource group that will contain the lab environment. In a support role, resource groups help technicians quickly identify which virtual machines, networks, security rules, and services belong to the same system or troubleshooting scenario. This confirms the cloud workspace is ready before deploying the Windows and Linux virtual machines.
+Create and document the Windows virtual machine, then continue building the Azure networking lab one screenshot at a time.
